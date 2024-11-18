@@ -1,3 +1,5 @@
+// 1. Write a dart program to check if the number is odd or even.
+
 void checkEvenOrOdd(int num) {
   if (num % 2 == 0) {
     print("$num is even.");
@@ -7,6 +9,6 @@ void checkEvenOrOdd(int num) {
 }
 
 void main() {
-  int num = 7;
+  int num = 3;
   checkEvenOrOdd(num);
 }
