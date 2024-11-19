@@ -23,7 +23,7 @@ void simpleCalculator() {
     print("Result: ${num1 * num2}");
   } else if (operation == '/') {
     if (num2 == 0) {
-      print("Division by zero is not allowed.");
+      print("Invalid.");
     } else {
       print("Result: ${num1 / num2}");
     }
