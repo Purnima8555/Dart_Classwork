@@ -1,5 +1,6 @@
 import 'package:first_assignment_dashboard/view/arithmetic_view.dart';
 import 'package:first_assignment_dashboard/view/first_view.dart';
+import 'package:first_assignment_dashboard/view/simple_interest_view.dart';
 import 'package:flutter/material.dart';
 
 class DashboardView extends StatelessWidget {
@@ -75,7 +76,7 @@ class DashboardView extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                      builder: (context) => const ArithmeticView()),
+                      builder: (context) => const SimpleInterestView()),
                 );
               },
               child: const Column(
