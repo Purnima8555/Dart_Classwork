@@ -105,7 +105,7 @@ class _CalculatorViewState extends State<CalculatorView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Calculator App'),
+        title: const Text('Purnima Calculator App'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
