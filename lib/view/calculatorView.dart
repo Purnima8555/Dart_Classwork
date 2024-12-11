@@ -92,12 +92,12 @@ class _CalculatorViewState extends State<CalculatorView> {
 
   Color _getButtonColor(String symbol) {
     if (symbol == "C") {
-      return Color.fromARGB(234, 255, 128, 0); // Orange for C
+      return Colors.redAccent; // Orange for C
     } else if (["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
         .contains(symbol)) {
-      return const Color.fromARGB(84, 158, 158, 158); // Grey for numbers
+      return Colors.black54; // Grey for numbers
     } else {
-      return Colors.amberAccent; // Amber accent for all others
+      return Colors.amber; // Amber accent for all others
     }
   }
 
